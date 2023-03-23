@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav > .search-box{
+    padding: 12px 8px;
+    outline-width: 0;
+    outline: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 350px;
+    margin: 15px auto;
+}
+.nav > h1{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgba(20, 10, 250, 0.5);
+}
